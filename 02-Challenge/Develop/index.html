@@ -9,8 +9,8 @@
 </head>
 
 <body>
-
-    <div class="header">
+    <!-- Change section name from 'div' to 'header' for clarity -->
+    <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
             <ul>
@@ -25,9 +25,11 @@
                 </li>
             </ul>
         </div>
-    </div>
-    <div class="hero"></div>
-    <div class="content">
+    </header>
+    <!-- Added aria-label attribute for screen reading accessibility since there is no alt text in .css. Interestingly, when I try to change the name of this section from 'div' to 'background', the background image stops loading. -->
+    <div class="hero" aria-label="People sitting and standing around a table in a conference room."></div>
+    <!-- Changed this section from 'div' to 'content' for clarity. -->
+    <content class="content">
         <div class="search-engine-optimization">
             <!-- Added alt text to image -->
             <img src="https://static.bc-edx.com/coding/full-stack/01-HTML-Git-CSS/assets/search-engine-optimization.jpg" class="float-left" alt="A work desk with a laptop, cup of coffee, a cupe full of pens, and a notebook turned to a page with 'SEO' for search engine optimization in the center. Surrounding the 'SEO' are the related terms: 'backlink', 'content', 'headings', 'link building', 'mobile compatibility', and 'social media'. "/>
@@ -52,8 +54,9 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
-    <div class="benefits">
+    </content>
+    <!-- Changed this section from 'div' to 'benefits' for clarity. -->
+    <benefits class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
             <!-- Added alt text to image -->
@@ -73,18 +76,19 @@
         <div class="benefit-cost">
             <h3>Cost Management</h3>
             <!-- Added alt text too image -->
-            <img src="https://static.bc-edx.com/coding/full-stack/01-HTML-Git-CSS/assets/cost-management.png" alt="An image of a gear partially obscured by three circles with dollar signs on them."/>
+            <img src="https://static.bc-edx.com/coding/full-stack/01-HTML-Git-CSS/assets/cost-management.png" alt="An image of a gear partially obscured by three circles with dollar signs on"/>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
-    <div class="footer">
+    </benefits>
+    <!-- Changed this section from 'div' to 'footer' for clarity. -->
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2024 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
