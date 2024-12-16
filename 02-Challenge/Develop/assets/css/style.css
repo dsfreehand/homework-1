@@ -1,3 +1,14 @@
+/* The header element should have a background color of #2a607c. (4 points) -> already done
+
+The header element should have a text color of #ffffff. (4 points) -> already done
+
+The first three images should have a height of 200px. (4 points each) -> already done
+
+The last three images should have a height of 150px. (4 points each) -> already done
+
+The footer element should have 30px padding. (4 points) - already done
+
+The text in the footer element should be centered. (4 points)- already done */
 * {
     box-sizing: border-box;
     padding: 0;
